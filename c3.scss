@@ -18,7 +18,7 @@ $color-white: aliceblue;
     width: 1383px;
     height: 757px;
 
-    &.logo1 {
+    .logo1 {
         position: absolute;
         top: 2%;
         left: 1%;
@@ -26,7 +26,7 @@ $color-white: aliceblue;
         width: 50px;
     }
 
-    &.search-box {
+    .search-box {
         position: absolute;
         top: 7%;
         left: 50%;
@@ -39,7 +39,7 @@ $color-white: aliceblue;
         padding-left: 30px;
     }
     
-    &.search-btn {
+    .search-btn {
         color:$color-white;
         float: rigth;
         width: 40px;
@@ -51,7 +51,7 @@ $color-white: aliceblue;
         align-items: center;
     }
     
-    &.search-txt {
+    .search-txt {
         border: none;
         background: none;
         outline: none;
@@ -65,14 +65,14 @@ $color-white: aliceblue;
     width: 200px;
     height: 757px;
 
-    &.dws1 {
+    .dws1 {
         position: absolute;
         top: 70%;
         left: 90%;
         transform: translate(-8%, -70%);
     }
 
-    &.dws1 .butt {
+    .dws1 .butt {
         font-size: 21px;
         font-family: 'Times New Roman', Times, serif;
         color: $color-white;
@@ -87,7 +87,7 @@ $color-white: aliceblue;
         margin-top: 30px;
     }
 
-    &.dws1 .butt::before {
+    .dws1 .butt::before {
         position: absolute;
         content: '';
         width: 100%;
@@ -99,11 +99,11 @@ $color-white: aliceblue;
         transition: 0.5s;
     }
 
-    &.dws1 .butt:hover::before {
+    .dws1 .butt:hover::before {
         left: 0;
     }
 
-    &.dws1 .butt1 {
+    .dws1 .butt1 {
         font-size: 21px;
         font-family: 'Times New Roman', Times, serif;
         color: $color-white;
@@ -118,7 +118,7 @@ $color-white: aliceblue;
         margin-top: 380px;
     }
 
-    &.dws1 .butt1::before {
+    .dws1 .butt1::before {
         position: absolute;
         content: '';
         width: 100%;
@@ -130,7 +130,7 @@ $color-white: aliceblue;
         transition: 0.5s;
     }
 
-    &.dws1 .butt1:hover::before {
+    .dws1 .butt1:hover::before {
         left: 0;
     }
 }

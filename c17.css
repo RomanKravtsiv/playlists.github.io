@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  float: left;
+  background-color: #141313;
+  width: 1383px;
+  height: 757px;
+}
+
+.top .logo1 {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  height: 50px;
+  width: 50px;
+}
+
+.t1 {
+  color: aliceblue;
+  position: absolute;
+  top: 3.1%;
+  left: 4.5%;
+}
+
+.right {
+  float: left;
+  background-color: black;
+  width: 200px;
+  height: 757px;
+}
+
+.right .dws1 .butt1 {
+  font-size: 21px;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 200px;
+}
+
+.right .dws1 .butt1::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #d4e0e0;
+  top: 0;
+  left: -100%;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.right .dws1 .butt1:hover::before {
+  left: 0;
+}
+
+.center .t2 {
+  position: absolute;
+  top: 17%;
+  left: 40%;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+.dws1 {
+  position: absolute;
+  top: 71%;
+  left: 88.5%;
+  -webkit-transform: translate(-8%, -70%);
+          transform: translate(-8%, -70%);
+}
+
+.butt {
+  font-size: 21px;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.butt::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #d4e0e0;
+  top: 0;
+  left: -100%;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.butt:hover::before {
+  left: 0;
+}
+/*# sourceMappingURL=c17.css.map */

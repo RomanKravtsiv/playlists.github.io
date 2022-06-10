@@ -11,7 +11,7 @@ $color-white:aliceblue;
     width: 1383px;
     height: 757px;
 
-    &.logo1 {
+    .logo1 {
         position: absolute;
         top: 2%;
         left: 1%;
@@ -33,7 +33,7 @@ $color-white:aliceblue;
     width: 200px;
     height: 757px;
 
-    &.dws1 .butt1 {
+    .dws1 .butt1 {
         font-size: 21px;
         font-family: 'Times New Roman', Times, serif;
         color: $color-white;
@@ -48,7 +48,7 @@ $color-white:aliceblue;
         margin-top: 200px;
     }
     
-    &.dws1 .butt1::before {
+    .dws1 .butt1::before {
         position: absolute;
         content: '';
         width: 100%;
@@ -60,7 +60,7 @@ $color-white:aliceblue;
         transition: 0.5s;
     }
     
-    &.dws1 .butt1:hover::before {
+    .dws1 .butt1:hover::before {
         left: 0;
     }
 }
