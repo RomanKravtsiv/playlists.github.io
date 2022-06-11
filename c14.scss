@@ -27,8 +27,9 @@ body {
 .right .dws1 {
     position: absolute;
     top: 9.2%;
-    left: 74%;
+    left: 70%;
     transform: translate(-8%, -70%);
+    padding-left: 5%;
 }
 
 .right .dws1 .butt {
@@ -38,12 +39,11 @@ body {
     text-decoration: none;
     width: 150px;
     height: 75px;
-    display:inline-block;
+    display: inline-block;
     text-align: center;
     line-height: 75px;
     position: relative;
     overflow: hidden;
-    margin-left: 50px;
 }
 
 .right .dws1 .butt::before {

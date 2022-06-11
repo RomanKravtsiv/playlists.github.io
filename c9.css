@@ -38,7 +38,6 @@ body {
 }
 
 .center form .block1 .row {
-  margin-bottom: 50px;
   height: 50px;
   width: 368px;
 }
@@ -47,19 +46,18 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 30px;
-  padding-left: 20px;
+  padding-left: 5%;
   font-size: 15px;
 }
 
 .center form .block2 {
   position: absolute;
   top: 60%;
-  left: 39%;
+  left: 38%;
 }
 
 .center form .block2 .row {
   display: inline-block;
-  margin-left: 60px;
   height: 50px;
   width: 150px;
 }
@@ -70,7 +68,7 @@ body {
   left: 50%;
   height: 47px;
   width: 150px;
-  margin-left: 12px;
+  margin-left: 33%;
   border-radius: 30px;
   background-color: darkgray;
   text-align: center;
@@ -87,7 +85,7 @@ body {
   left: 5%;
   height: 47px;
   width: 150px;
-  margin-left: 12px;
+  margin-left: 7%;
   border-radius: 30px;
   background-color: darkgray;
   text-align: center;

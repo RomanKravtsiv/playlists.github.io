@@ -5,9 +5,10 @@
 
 .top {
   float: left;
+  position: absolute;
   background-color: #141313;
-  width: 1383px;
-  height: 757px;
+  width: 87%;
+  height: 100%;
 }
 
 .top .logo1 {
@@ -28,8 +29,10 @@
 .right {
   float: left;
   background-color: black;
-  width: 200px;
-  height: 757px;
+  position: absolute;
+  margin-left: 87%;
+  width: 13%;
+  height: 100%;
 }
 
 .right .dws1 .butt1 {
@@ -76,7 +79,7 @@
 .dws1 {
   position: absolute;
   top: 71%;
-  left: 88.5%;
+  left: 20%;
   -webkit-transform: translate(-8%, -70%);
           transform: translate(-8%, -70%);
 }
@@ -93,7 +96,7 @@
   line-height: 50px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 35%;
 }
 
 .butt::before {

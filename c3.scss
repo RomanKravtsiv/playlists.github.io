@@ -9,14 +9,15 @@ $color-white: aliceblue;
     color: $color-white;
     position: absolute;
     top: 3.1%;
-    left: 4.5%;
+    left: 5.5%;
 }
 
 .top {
     float: left;
     background-color:rgb(20, 19, 19);
-    width: 1383px;
-    height: 757px;
+    position: absolute;
+    width: 87%;
+    height: 100%;
 
     .logo1 {
         position: absolute;
@@ -32,11 +33,11 @@ $color-white: aliceblue;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color:darkgray;
-        height: 40px;
-        width: 260px;
+        height: 5%;
+        width: 20%;
         border-radius: 40px;
-        padding-top: 20px;
-        padding-left: 30px;
+        padding-top: 1%;
+        padding-left: 2%;
     }
     
     .search-btn {
@@ -46,6 +47,7 @@ $color-white: aliceblue;
         height: 40px;
         border-radius: 50%;
         display:absolute;
+        padding-left: 7%;
         background-color:darkgrey;
         justify-content: center;
         align-items: center;
@@ -62,13 +64,15 @@ $color-white: aliceblue;
 .right {
     float: left;
     background-color:black;
-    width: 200px;
-    height: 757px;
+    position: absolute;
+    margin-left: 87%;
+    width: 13%;
+    height: 100%;
 
     .dws1 {
         position: absolute;
         top: 70%;
-        left: 90%;
+        left: 30%;
         transform: translate(-8%, -70%);
     }
 
@@ -84,7 +88,7 @@ $color-white: aliceblue;
         line-height: 45px;
         position: relative;
         overflow: hidden;
-        margin-top: 30px;
+        margin-top: 30%;
     }
 
     .dws1 .butt::before {
@@ -115,7 +119,7 @@ $color-white: aliceblue;
         line-height: 45px;
         position: relative;
         overflow: hidden;
-        margin-top: 380px;
+        margin-top: 360%;
     }
 
     .dws1 .butt1::before {
@@ -155,19 +159,20 @@ $color-white: aliceblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:darkgray;
     text-decoration: none;
-    width: 175px;
-    height: 175px;
+    width: 140%;
+    height: 120%;
     display:block;
     border-radius: 5%;
     text-align: center;
-    line-height: 175px;
+    line-height: 350%;
     position: relative;
     background-color:rgb(41, 39, 39);
 }
 
 .center .playlists .t3 {
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-top: 8%;
+    padding-left: 12%;
+    width: 100%;
     color:darkgray
 }
 

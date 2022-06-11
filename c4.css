@@ -7,14 +7,15 @@
   color: aliceblue;
   position: absolute;
   top: 3.1%;
-  left: 4.5%;
+  left: 5.5%;
 }
 
 .top {
   float: left;
   background-color: #141313;
-  width: 1383px;
-  height: 757px;
+  position: absolute;
+  width: 87%;
+  height: 100%;
 }
 
 .top .logo1 {
@@ -28,14 +29,16 @@
 .right {
   float: left;
   background-color: black;
-  width: 200px;
-  height: 757px;
+  position: absolute;
+  margin-left: 87%;
+  width: 13%;
+  height: 100%;
 }
 
 .right .dws1 {
   position: absolute;
   top: 70%;
-  left: 90%;
+  left: 30%;
   -webkit-transform: translate(-8%, -70%);
           transform: translate(-8%, -70%);
 }
@@ -52,7 +55,7 @@
   line-height: 45px;
   position: relative;
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: 20%;
 }
 
 .right .dws1 .butt::before {
@@ -84,7 +87,7 @@
   line-height: 45px;
   position: relative;
   overflow: hidden;
-  margin-top: 380px;
+  margin-top: 350%;
 }
 
 .right .dws1 .butt1::before {
@@ -124,19 +127,20 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkgray;
   text-decoration: none;
-  width: 175px;
-  height: 175px;
+  width: 130%;
+  height: 120%;
   display: block;
   border-radius: 5%;
   text-align: center;
-  line-height: 175px;
+  line-height: 350%;
   position: relative;
   background-color: #292727;
 }
 
 .center .playlists .t3 {
-  padding-top: 10px;
-  padding-left: 20px;
+  padding-top: 8%;
+  padding-left: 11%;
+  width: 100%;
   color: darkgray;
 }
 /*# sourceMappingURL=c4.css.map */
